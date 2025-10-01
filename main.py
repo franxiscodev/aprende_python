@@ -30,9 +30,8 @@ def mostrar_modulos_disponibles():
         "2": {"nombre": "Estructuras de Control", "modulo": "🔰 fundamentos", "archivo": "estructuras_control"},
         "3": {"nombre": "Funciones", "modulo": "🔰 fundamentos", "archivo": "funciones"},
         "4": {"nombre": "Hello Python", "modulo": "👋 holapython", "archivo": "hello_world"},
-        "5": {"nombre": "Listas y Tuplas", "modulo": "🏗️ *estructuras_datos", "archivo": "listas_tuplas"},
-        "6": {"nombre": "Tests", "modulo": "🧪 tests", "archivo": "test_fundamentos"},
-        "0": {"nombre": "Salir", "modulo": "🚪 Exit", "archivo": ""}
+        "5": {"nombre": "Listas y Tuplas", "modulo": "🏗️ estructuras_datos", "archivo": "listas_tuplas"},
+        "6": {"nombre": "Tests", "modulo": "🧪 tests", "archivo": "test_fundamentos"}
     }
 
     print("\n📚 MÓDULOS DE APRENDIZAJE DISPONIBLES:")

@@ -12,17 +12,19 @@ Este proyecto sirve como un laboratorio personal para aprender y experimentar co
 
 ## 📁 Estructura del Proyecto
 
+```bash
 aprende_python/
-├── 📂 fundamentos/ # Conceptos básicos de Python
-├── 📂 estructuras_datos/ # Estructuras y validación de datos
-├── 📂 programacion_funcional/# Programación funcional
-├── 📂 poo/ # Programación Orientada a Objetos
-├── 📂 manejo_archivos/ # Manejo de archivos y formatos
-├── 📂 tests/ # Pruebas automatizadas
-├── 📂 holapython/ # Ejemplos iniciales y hello world
-├── 📜 main.py # Punto de entrada principal
-├── 📜 requirements.txt # Dependencias del proyecto
-└── 📜 README.md # Este archivo
+├── 📂 fundamentos/           # Conceptos básicos de Python
+├── 📂 estructuras_datos/     # Estructuras y validación de datos  
+├── 📂 programacion_funcional/ # Programación funcional
+├── 📂 poo/                   # Programación Orientada a Objetos
+├── 📂 manejo_archivos/       # Manejo de archivos y formatos
+├── 📂 tests/                 # Pruebas automatizadas
+├── 📂 holapython/            # Ejemplos iniciales y hello world
+├── 📜 main.py                # Punto de entrada principal
+├── 📜 requirements.txt       # Dependencias del proyecto
+└── 📜 README.md              # Este archivo
+```
 
 
 ## 🚀 Comenzar

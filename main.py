@@ -26,19 +26,20 @@ def mostrar_banner():
 def mostrar_modulos_disponibles():
     """Muestra los módulos de aprendizaje disponibles"""
     modulos = {
-        "1": {"nombre": "🔰 Fundamentos", "modulo": "fundamentos", "archivo": "variables_tipos"},
-        "2": {"nombre": "🏗️ Estructuras de Datos", "modulo": "estructuras_datos", "archivo": "listas_tuplas"},
-        "3": {"nombre": "🔄 Programación Funcional", "modulo": "programacion_funcional", "archivo": "lambdas"},
-        "4": {"nombre": "🧭 POO", "modulo": "poo", "archivo": "clases_objetos"},
-        "5": {"nombre": "💾 Manejo de Archivos", "modulo": "manejo_archivos", "archivo": "archivos_texto"},
-        "6": {"nombre": "👋 Hello Python", "modulo": "holapython", "archivo": "hello_world"},
-        "7": {"nombre": "🧪 Tests", "modulo": "tests", "archivo": "test_fundamentos"}
+        "1": {"nombre": "Variables y Tipos", "modulo": "🔰 fundamentos", "archivo": "variables_tipos"},
+        "2": {"nombre": "Estructuras de Control", "modulo": "🔰 fundamentos", "archivo": "estructuras_control"},
+        "3": {"nombre": "Funciones", "modulo": "🔰 fundamentos", "archivo": "funciones"},
+        "4": {"nombre": "Hello Python", "modulo": "👋 holapython", "archivo": "hello_world"},
+        "5": {"nombre": "Listas y Tuplas", "modulo": "🏗️ *estructuras_datos", "archivo": "listas_tuplas"},
+        "6": {"nombre": "Tests", "modulo": "🧪 tests", "archivo": "test_fundamentos"},
+        "0": {"nombre": "Salir", "modulo": "🚪 Exit", "archivo": ""}
     }
 
     print("\n📚 MÓDULOS DE APRENDIZAJE DISPONIBLES:")
     print("=" * 50)
     for key, info in modulos.items():
-        print(f"{key}. {info['nombre']}")
+        print(
+            f"{key}. {info['modulo']}: {info['nombre']} - {info['archivo']}.py")
     print("0. 🚪 Salir")
     print("=" * 50)
 

@@ -1,0 +1,45 @@
+# 🐍 APRENDE PYTHON - DEPENDENCIAS DEL PROYECTO
+#
+# Este archivo contiene todas las dependencias necesarias
+# para el proyecto de aprendizaje de Python.
+#
+# Instalar con: pip install -r requirements.txt
+
+## DEPENDENCIAS PRINCIPALES ##
+
+# ✅ Validación de datos y estructuras
+pydantic>=2.0.0
+
+# ✅ Testing framework
+pytest>=7.0.0
+
+# ✅ Mejores mensajes de assert en tests
+pytest-clarity>=1.0.0
+
+## HERRAMIENTAS DE DESARROLLO ##
+
+# ✅ Formateador de código (opcional pero recomendado)
+black>=23.0.0
+
+# ✅ Organizador de imports (opcional pero recomendado)
+isort>=5.12.0
+
+# ✅ Linter de código (opcional pero recomendado)
+flake8>=6.0.0
+
+# ✅ Verificación de tipos (opcional pero recomendado)
+mypy>=1.0.0
+
+## DEPENDENCIAS PARA EJEMPLOS ESPECÍFICOS ##
+
+# ✅ Para ejemplos de requests HTTP (futuros módulos)
+requests>=2.28.0
+
+# ✅ Para ejemplos de manipulación de datos (futuros módulos)
+python-dateutil>=2.8.0
+
+# ✅ Para ejemplos de archivos CSV/JSON (futuros módulos)
+# (Estas vienen con Python estándar, pero las listamos para referencia)
+# csv
+# json
+# pathlib

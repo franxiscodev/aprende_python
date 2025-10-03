@@ -117,3 +117,37 @@ refactor: Refactorización de código
 
 test: Agregar o modificar tests
 
+# 🧪 Guía de Comandos para Testing
+
+## Comandos Básicos de Testing
+
+### Ejecución Básica de Tests
+```bash
+# Ejecutar TODOS los tests en la carpeta tests/
+pytest
+
+# Ejecutar tests con detalles verbosos (-v = verbose)
+pytest -v
+
+# Ejecutar tests específicos de un archivo
+pytest tests/test_fundamentos.py -v
+pytest tests/test_ejercicios.py -v
+
+# Ejecutar tests manualmente (sin pytest)
+python tests/test_fundamentos.py
+python tests/test_ejercicios.py
+
+# Ejecutar tests y mostrar output de los tests que pasan
+pytest -v -s
+
+# Comando rápido para verificar que todo funciona
+pytest -q
+
+# Ejecutar tests usando el módulo de pytest
+python -m pytest tests/
+
+
+
+
+
+
